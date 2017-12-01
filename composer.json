@@ -1,0 +1,17 @@
+{
+	"name": "kr0lik/yandex-sovetnik-hide",
+	"description": "Hide yandex sovetnik popup",
+	"type": "javascript",
+	"version": "1.0",
+	"keywords": ["yandex","sovetnik","hide"],
+	"license": "MIT",
+	"support": {
+        	"source": "https://github.com/kr0lik/yandex-sovetnik-hide"
+    	},
+	"authors": [
+		{
+			"name": "krolik",
+			"email": "krolik@yandex.ru"
+		}
+	]
+}
