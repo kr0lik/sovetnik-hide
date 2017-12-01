@@ -1,4 +1,5 @@
 # sovetnik-hide
 Stop yandex sovetnik popup
 
-will be later
+# Usage
+Simply add src/stopsovetnik.js to your website
