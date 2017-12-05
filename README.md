@@ -1,4 +1,4 @@
-# sovetnik-hide
+# Yandex-sovetnik-hide
 Stop yandex sovetnik popup
 
 # Usage
