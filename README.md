@@ -8,7 +8,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist kr0lik/yandex-sovetnik-hide "^1.0"
+composer require --prefer-dist kr0lik/yandex-sovetnik-hide "dev-master"
 ```
 
 or add
