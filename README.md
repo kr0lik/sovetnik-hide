@@ -8,13 +8,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist kr0lik/yandex-sovetnik-hide "dev-master"
+composer require --prefer-dist kr0lik/yandex-sovetnik-hide "*"
 ```
 
 or add
 
 ```
-"kr0lik/yandex-sovetnik-hide": "dev-master"
+"kr0lik/yandex-sovetnik-hide": "*"
 ```
 
 to the require section of your `composer.json` file.
