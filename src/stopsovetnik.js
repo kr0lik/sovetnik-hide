@@ -17,7 +17,14 @@
         });
     });
 
-    $('h1').before('<h1 style="display: none;">Stop sovetnik</h1>');
+    var oldEl = document.getElementsByTagName("h1")[0];
+    var parentEl = oldEl.parentNode;
+	
+    newEl = document.createElement('h1');
+    newEl.innerHTML = 'Stop sovetnik!';
+    newEl.style.display = 'none';
+	
+    parentEl.insertBefore(newEl, oldEl);
 })();
 
 function sovetnikFix() {
