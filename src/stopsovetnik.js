@@ -18,13 +18,15 @@
     });
 
     var oldEl = document.getElementsByTagName("h1")[0];
-    var parentEl = oldEl.parentNode;
+    if (oldEl) {
+	var parentEl = oldEl.parentNode;
 	
-    newEl = document.createElement('h1');
-    newEl.innerHTML = 'Stop sovetnik!';
-    newEl.style.display = 'none';
+    	newEl = document.createElement('h1');
+    	newEl.innerHTML = 'Stop sovetnik!';
+    	newEl.style.display = 'none';
 	
-    parentEl.insertBefore(newEl, oldEl);
+    	parentEl.insertBefore(newEl, oldEl);
+    }
 })();
 
 function sovetnikFix() {
